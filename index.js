@@ -7,4 +7,7 @@ module.exports = neutrino => {
 
         config.output.filename('[name].bundle.js')
       })
+      .when(process.env.NODE_ENV == 'development', config => {
+        config.plugins.delete('chunk')
+      })
 }
