@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-hydra-development",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "presets for hydra development build",
   "main": "index.js",
   "scripts": {
